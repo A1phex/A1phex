@@ -29,7 +29,7 @@ M.Sc. Mechatronics building model-based systems engineering work — and writing
 | **SHM Vibration Simulation** | COMSOL + MATLAB LiveLink pipeline generating synthetic vibration data for structural-health-monitoring algorithms; sssMOR reduction cuts compute 60–67% | COMSOL 6.1 · MATLAB · FEM · sssMOR |
 | **Pick-and-Place Robot** | 3-DOF manipulator with first-principles inverse kinematics and adaptive height sensing — no hard-coded positions | MATLAB · Robotics · Control |
 
-→ Write-ups and visuals on the [portfolio](https://a1phex.github.io).
+→ Write-ups and visuals on the [portfolio](https://a1phex.github.io/janmesh-portfolio/index.html).
 
 ### Toolbox
 
