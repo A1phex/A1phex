@@ -1,47 +1,50 @@
-<h1 align="center">Janmesh Thakare</h1>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
+  <img src="assets/banner-light.svg" alt="Janmesh Thakare — Systems Engineer · MBSE · SysML · Munich" width="100%">
+</picture>
 
-<p align="center">
-  <b>Systems Engineer</b> · MBSE / SysML · Simulation &amp; Structural Dynamics · Munich, DE
-</p>
+<div align="center">
 
-<p align="center">
-  <a href="https://a1phex.github.io">Portfolio</a> ·
-  <a href="https://www.linkedin.com/in/janmesht/">LinkedIn</a> ·
-  <a href="mailto:janmesh.thakare@gmail.com">Email</a>
-</p>
+**Systems engineer. I model systems before they're built.**
+
+[Email](mailto:YOUR-EMAIL@example.com) · [LinkedIn](https://www.linkedin.com/in/YOUR-LINKEDIN/) · [Portfolio](https://a1phex.github.io/janmesh-portfolio/) · [CV (PDF)](https://a1phex.github.io/janmesh-portfolio/cv-janmesh-thakare.pdf)
+
+</div>
+
+## Why hire me
+
+*Your requirements, traced to evidence — the way I'd document any system.*
+
+| | Requirement | Evidence |
+|:--|:--|:--|
+| `REQ-001` | MBSE applied in real automotive development | Modeled BMW's DASS airbag suppression system end-to-end in SysML — Master's thesis in series development, **grade 1.3** |
+| `REQ-002` | Productive in industry tooling from day one | MagicDraw / Cameo daily across **two BMW engagements** · IBM DOORS NG |
+| `REQ-003` | Bridges models and physical reality | B.E. Mechanical → M.Sc. Mechatronics · COMSOL + MATLAB simulation · Python, C++ |
+
+## Projects
+
+- **DASS Airbag Suppression — SysML model** · BMW Group. Requirements → use cases → structure → behavior, in BMW's live toolchain. *Proprietary detail discussed on request.*
+- **[SHM Vibration Simulation](https://a1phex.github.io/janmesh-portfolio/)** · Damage detection via modal analysis. COMSOL, MATLAB.
+- **[Pick-and-Place Robot](https://a1phex.github.io/janmesh-portfolio/)** · Mechanics, actuation and control as one integrated problem.
+
+## Toolchain
+
+`SysML` `MagicDraw/Cameo` `DOORS NG` `Requirements Engineering` `MATLAB/Simulink` `COMSOL` `Python` `C++`
+
+## Path
+
+```text
+NOW ──────► Open to Systems Engineering / MBSE roles · Munich
+    ├── BMW Group · Master's thesis — SysML model, DASS airbag suppression (1.3)
+    ├── BMW Group · Systems engineering internship
+    ├── Universität Siegen · M.Sc. Mechatronics
+    └── SPPU Pune · B.E. Mechanical Engineering
+```
 
 ---
 
-M.Sc. Mechatronics building model-based systems engineering work — and writing the code, simulations, and tooling around it. Two consecutive engagements at **BMW AG**, both rated at the top performance band. I like problems that sit between mechanical first principles and software: deriving the math, modelling the system, then making it run.
+<div align="center">
 
-### What I work on
+**If your system needs someone who models it before building it — [let's talk](mailto:YOUR-EMAIL@example.com?subject=Systems%20Engineering%20Opportunity).**
 
-- **Systems engineering** — SysML modelling in MagicDraw/Cameo, requirements traceability, ISO 15288 / 29148 workflows
-- **Simulation & numerics** — MATLAB/Simulink, COMSOL Multiphysics, FEM, modal analysis, model-order reduction
-- **Code** — Python, MATLAB, C++, SQL; data analysis and ML tooling (PyTorch, scikit-learn) around engineering data
-- **Side projects** — interactive web demos, animation, and whatever else is worth building from scratch
-
-### Selected projects
-
-| Project | What it is | Stack |
-|---|---|---|
-| **DASS — Dynamic Suppression** | Safety-critical airbag-suppression architecture (M.Sc. thesis @ BMW); 35 SysML requirements, full system model, simulation-based verification | SysML · MagicDraw · MATLAB/Simulink · JMP Pro |
-| **SHM Vibration Simulation** | COMSOL + MATLAB LiveLink pipeline generating synthetic vibration data for structural-health-monitoring algorithms; sssMOR reduction cuts compute 60–67% | COMSOL 6.1 · MATLAB · FEM · sssMOR |
-| **Pick-and-Place Robot** | 3-DOF manipulator with first-principles inverse kinematics and adaptive height sensing — no hard-coded positions | MATLAB · Robotics · Control |
-
-→ Write-ups and visuals on the [portfolio](https://a1phex.github.io/janmesh-portfolio/index.html).
-
-### Toolbox
-
-![MATLAB](https://img.shields.io/badge/MATLAB-0076A8?style=flat-square&logo=mathworks&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
-![SysML](https://img.shields.io/badge/SysML-1452CC?style=flat-square&logo=&logoColor=white)
-![COMSOL](https://img.shields.io/badge/COMSOL-D6231F?style=flat-square&logo=&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-
-### A bit more
-
-Fluent in German (C1) and English (C2). Outside engineering I run **[The Cockpit Theory](https://www.youtube.com/@TheCockpitTheory)**, a YouTube channel on self-reliance and resilience built with stick-figure animation — design, scripting, and the occasional thruster-stabilization logic gate all happen here too.
-
-<p align="center"><sub>Open to systems engineering, simulation, and automation roles across Germany and the EU.</sub></p>
+</div>
