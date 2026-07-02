@@ -7,7 +7,7 @@
 
 **Systems engineer. I model systems before they're built.**
 
-[Email](mailto:YOUR-EMAIL@example.com) · [LinkedIn](https://www.linkedin.com/in/YOUR-LINKEDIN/) · [Portfolio](https://a1phex.github.io/janmesh-portfolio/) · [CV (PDF)](https://a1phex.github.io/janmesh-portfolio/cv-janmesh-thakare.pdf)
+[Email](mailto:janmesh.thakare@gmail.com) · [LinkedIn](https://www.linkedin.com/in/janmesht/) · [Portfolio](https://a1phex.github.io/janmesh-portfolio/) · [CV (PDF)](https://a1phex.github.io/janmesh-portfolio/uploads/Janmesh_Thakare_CV.pdf)
 
 </div>
 
@@ -45,6 +45,6 @@ NOW ──────► Open to Systems Engineering / MBSE roles · Munich
 
 <div align="center">
 
-**If your system needs someone who models it before building it — [let's talk](mailto:YOUR-EMAIL@example.com?subject=Systems%20Engineering%20Opportunity).**
+**If your system needs someone who models it before building it — [let's talk](mailto:janmesh.thakare@gmail.com?subject=Systems%20Engineering%20Opportunity).**
 
 </div>

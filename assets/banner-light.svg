@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 260" width="1000" height="260" role="img" aria-label="Janmesh Thakare — Systems Engineer, MBSE, SysML, Munich">
+  <style>
+    .ink   { fill:#17253B; }
+    .mut   { fill:#5A6B7E; }
+    .acc   { fill:#2547D0; }
+    .grn   { fill:#157A46; }
+    .mono  { font-family: ui-monospace, 'Cascadia Mono', 'Courier New', monospace; }
+    .disp  { font-family: 'Arial Narrow', 'Helvetica Neue', Arial, sans-serif; font-weight: 800; letter-spacing: 1px; }
+
+    .trace {
+      stroke:#2547D0; stroke-width:2; fill:none;
+      stroke-dasharray:8 6;
+      animation: flow 1.2s linear infinite;
+    }
+    @keyframes flow { to { stroke-dashoffset:-14; } }
+
+    .pulse { animation: pulse 2s ease-in-out infinite; transform-origin: center; transform-box: fill-box; }
+    @keyframes pulse { 0%,100% { opacity:1; } 50% { opacity:.35; } }
+
+    .drawin {
+      stroke-dasharray:2440; stroke-dashoffset:2440;
+      animation: draw 1.6s ease-out forwards;
+    }
+    @keyframes draw { to { stroke-dashoffset:0; } }
+
+    @media (prefers-reduced-motion: reduce) {
+      .trace, .pulse, .drawin { animation: none; stroke-dashoffset:0; }
+    }
+  </style>
+
+  <!-- paper -->
+  <rect width="1000" height="260" fill="#F7F8F5"/>
+
+  <!-- grid -->
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#E2E7EC" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1000" height="260" fill="url(#grid)"/>
+
+  <!-- drawing frame -->
+  <rect x="10" y="10" width="980" height="240" fill="none" stroke="#17253B" stroke-width="2" class="drawin"/>
+  <rect x="18" y="18" width="964" height="224" fill="none" stroke="#C7D0DA" stroke-width="0.75"/>
+
+  <!-- corner marks -->
+  <text x="26" y="34" class="mono mut" font-size="9" letter-spacing="1.5">DIN A0 · SHEET 1/1</text>
+  <text x="974" y="34" text-anchor="end" class="mono mut" font-size="9" letter-spacing="1.5">REV. 2026-07</text>
+  <text x="26" y="236" class="mono mut" font-size="9" letter-spacing="1.5">JT-PROFILE-001</text>
+  <text x="974" y="236" text-anchor="end" class="mono mut" font-size="9" letter-spacing="1.5">SCALE 1:1</text>
+
+  <!-- identity -->
+  <text x="52" y="88" class="mono acc" font-size="15" letter-spacing="3">&#171;systems engineer&#187;</text>
+  <text x="50" y="150" class="disp ink" font-size="58">JANMESH THAKARE</text>
+  <text x="52" y="185" class="mono ink" font-size="14" letter-spacing="2">MBSE &#183; SYSML &#183; REQUIREMENTS ENGINEERING</text>
+  <text x="52" y="208" class="mono mut" font-size="11" letter-spacing="2">MUNICH, GERMANY &#183; BMW GROUP EXPERIENCE</text>
+
+  <!-- mini SysML trace diagram, right side -->
+  <g>
+    <rect x="672" y="70" width="120" height="52" fill="#FFFFFF" stroke="#17253B" stroke-width="1.5"/>
+    <text x="732" y="90" text-anchor="middle" class="mono mut" font-size="9" letter-spacing="1">&#171;requirement&#187;</text>
+    <text x="732" y="107" text-anchor="middle" class="mono ink" font-size="11" letter-spacing="1">YOUR ROLE</text>
+
+    <path class="trace" d="M792 96 H 848"/>
+    <text x="820" y="88" text-anchor="middle" class="mono acc" font-size="8.5" letter-spacing="1">satisfies</text>
+    <path d="M844 91 L 852 96 L 844 101 Z" fill="#2547D0"/>
+
+    <rect x="852" y="70" width="98" height="52" fill="#17253B"/>
+    <text x="901" y="90" text-anchor="middle" class="mono" font-size="9" letter-spacing="1" fill="#8FA6FF">&#171;block&#187;</text>
+    <text x="901" y="107" text-anchor="middle" class="mono" font-size="11" letter-spacing="1" fill="#F7F8F5">J.THAKARE</text>
+
+    <!-- status -->
+    <circle cx="682" cy="168" r="5" class="grn pulse"/>
+    <text x="696" y="172" class="mono grn" font-size="12" letter-spacing="2">STATUS: AVAILABLE FOR HIRE</text>
+    <text x="696" y="192" class="mono mut" font-size="10" letter-spacing="1.5">M.SC. MECHATRONICS &#183; THESIS 1.3</text>
+  </g>
+</svg>
